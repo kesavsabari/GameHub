@@ -1,0 +1,7 @@
+Node.js 18 or newer
+npm 9 or newer
+MongoDB Community Server
+
+Project packages:
+express
+mongoose

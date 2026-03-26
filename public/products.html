@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products - GameHub Store</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">GameHub Store</div>
+      <div class="nav-links">
+        <a href="/">Home</a>
+        <a class="active-link" href="/products.html">Products</a>
+        <a href="/add-game.html">Add Game</a>
+        <a href="/orders.html">Orders</a>
+      </div>
+    </nav>
+
+    <main class="page-wrap">
+      <section class="page-hero">
+        <div class="page-hero-text">
+          <p class="mini-tag">Browse the store</p>
+          <h1>Featured Games</h1>
+          <p>Search the catalog, view details, and add games to your cart.</p>
+        </div>
+        <div class="page-hero-side">
+          <div class="small-info-box">
+            <span>Store tip</span>
+            <p>Search by game name and use the cart to place your order.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="search-box">
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Search game by name"
+        />
+      </section>
+
+      <section class="products-layout">
+        <div class="products-side">
+          <section id="gameDetails" class="details-box hidden">
+            <h3>Selected Game</h3>
+            <p id="detailText">Click a game to see some details.</p>
+          </section>
+
+          <section id="gameList" class="game-list"></section>
+        </div>
+
+        <aside class="cart-box">
+          <div class="cart-top">
+            <p class="mini-tag">Shopping cart</p>
+            <h2>Your Cart</h2>
+            <p>Review your picks, check the total, and place your order.</p>
+          </div>
+
+          <div id="cartItems" class="cart-items"></div>
+
+          <div class="cart-bottom">
+            <p><strong>Total:</strong> <span id="cartTotal">$0.00</span></p>
+            <div class="cart-buttons">
+              <button id="buyCartBtn" class="main-btn">Buy Cart</button>
+              <button id="clearCartBtn" class="ghost-btn">Clear Cart</button>
+            </div>
+            <p id="cartMessage" class="cart-message"></p>
+          </div>
+        </aside>
+      </section>
+    </main>
+
+    <script src="/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Orders - GameHub Store</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">GameHub Store</div>
+      <div class="nav-links">
+        <a href="/">Home</a>
+        <a href="/products.html">Products</a>
+        <a href="/add-game.html">Add Game</a>
+        <a class="active-link" href="/orders.html">Orders</a>
+      </div>
+    </nav>
+
+    <main class="page-wrap">
+      <section class="page-hero">
+        <div class="page-hero-text">
+          <p class="mini-tag">Order history</p>
+          <h1>Orders</h1>
+          <p>Your recent purchases will appear here.</p>
+        </div>
+        <div class="page-hero-side">
+          <div class="small-info-box">
+            <span>Recent purchases</span>
+            <p>Check the games you already placed in previous orders.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="orderList" class="order-list"></section>
+    </main>
+
+    <script src="/orders.js"></script>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "name": "gamehub-store",
+  "version": "1.0.0",
+  "description": "Simple student full stack project for selling games",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node seed.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongoose": "^8.12.1"
+  }
+}

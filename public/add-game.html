@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add Game - GameHub Store</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">GameHub Store</div>
+      <div class="nav-links">
+        <a href="/">Home</a>
+        <a href="/products.html">Products</a>
+        <a class="active-link" href="/add-game.html">Add Game</a>
+        <a href="/orders.html">Orders</a>
+      </div>
+    </nav>
+
+    <main class="page-wrap">
+      <section class="page-hero">
+        <div class="page-hero-text">
+          <p class="mini-tag">New product</p>
+          <h1>Add New Game</h1>
+          <p>Add a new title to the store collection.</p>
+        </div>
+        <div class="page-hero-side">
+          <div class="small-info-box">
+            <span>Fields</span>
+            <p>Enter the game name, price and platform to list it in the store.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="form-layout">
+        <form id="gameForm" class="game-form">
+          <label for="name">Game Name</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="price">Price</label>
+          <input type="number" id="price" name="price" step="0.01" required />
+
+          <label for="platform">Platform</label>
+          <input type="text" id="platform" name="platform" required />
+
+          <button type="submit" class="main-btn">Add Game</button>
+          <p id="formMessage" class="form-message"></p>
+        </form>
+      </section>
+    </main>
+
+    <script src="/add-game.js"></script>
+  </body>
+</html>
