@@ -58,7 +58,7 @@ npm install
 ```
 
 4. Start MongoDB on your computer.
-5. Run the seed file so some sample games are added:
+5. Run the seed file to add some sample games:
 
 ```bash
 npm run seed
