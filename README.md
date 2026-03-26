@@ -2,8 +2,6 @@
 
 GameHub Store is a simple full-stack web application for browsing games, adding new games, putting games into a cart, and placing a basic order.
 
-I made this as a student project, so the code is kept simple and easy to follow.
-
 ## What the project can do
 
 - show games from the database
@@ -37,9 +35,7 @@ GameHubStore/
 └── server.js
 ```
 
-## Before you run it
-
-Make sure you already have these installed:
+## Requirments
 
 - Node.js
 - npm
@@ -80,20 +76,7 @@ npm start
 http://localhost:3000
 ```
 
-## API routes
-
-- `GET /games`
-- `POST /games`
-- `GET /orders`
-- `POST /orders`
-
-## Important notes
-
-- There is no login or signup in this project.
-- Payment is only a simple dummy flow.
-- Orders are stored in MongoDB.
-- Cart data is stored in browser local storage.
 
 ## Author
 
-Kesav
+Kesav Rekha Sabari
